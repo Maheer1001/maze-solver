@@ -67,8 +67,3 @@ def test_add_vertical_wall() -> None:
     maze = create_maze(11, 5)
     maze = add_vertical_wall(maze, 2, 4)
     assert get_walls(maze, 4, 2) == (False, False, False, True)
-
-test_add_horizontal_wall()
-test_add_vertical_wall()
-test_create_maze_get_walls()
-test_create_maze_get_dimensions()

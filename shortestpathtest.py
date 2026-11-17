@@ -27,5 +27,3 @@ def test_shortest_path() -> None:
     for location in path:
         assert location not in prefix, f"{location} is repeated"
         prefix.append(location)
-
-test_shortest_path()
