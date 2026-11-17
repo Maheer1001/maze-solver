@@ -17,7 +17,7 @@ python maze_runner.py maze1.mz
 python maze_runner.py --starting "0,0" --goal "4,4" maze3.mz
 ```
 
-The default start is `(0,0)` and the default goal is the opposite corner. `maze1.mz` to `maze6.mz` are sample mazes.
+The default start is `(0,0)` and the default goal is the opposite corner. `maze1.mz`, `maze3.mz` to `maze6.mz` are sample mazes from 2×1 up to 100×50. `maze2.mz` is deliberately malformed, for the error-handling test.
 
 ## Tests
 
