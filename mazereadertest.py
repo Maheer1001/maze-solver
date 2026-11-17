@@ -11,7 +11,7 @@ def test_maze_reader_maze1() -> None:
 
 def test_maze_reader_maze2() -> None:
     with pytest.raises(ValueError):
-        maze = maze_reader("maze2.mz")
+        maze_reader("maze2.mz")
 
 test_maze_reader_maze1()
 test_maze_reader_maze2()
